@@ -1,1 +1,1 @@
-![Alt text](/video.gif?raw=true "Title")
+![Alt text](/preview.gif?raw=true "Title")
