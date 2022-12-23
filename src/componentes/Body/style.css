@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin-left: 8vw;
+    width: 30vw;
+    margin-top: 14vh;
+    position: fixed;
+}
+ul{
+    list-style: none;
+}
+.geral{
+    display: flex;
+    flex-direction: column;
+}
+#spn{
+    background-color: rgba(22, 24, 35, 0.308);
+    height: 1px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 15px;
+}
+#ul2 span{
+    font-family: Arial,Tahoma,PingFangSC,sans-serif;
+    color: rgba(22, 24, 35, .5);
+    font-size: 16px;
+    line-height: 22px;
+}
+li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 3vh;
+}
+.container button{
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    color: rgba(254, 44, 85, 1);
+    border-color: rgba(254, 44, 85, 1);
+    background-color: rgba(255, 255, 255, 1);
+    min-width: 168px;
+    min-height: 48px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 600;
+    font-family: SofiaPro,PingFangSC,sans-serif;
+}
+.containerCard{
+    border-bottom:1px solid rgba(128, 128, 128, 0.253);
+    position: absolute;
+    width: 50%;
+    margin-left: 45%;
+    margin-top: 8%;
+    display: flex;
+    flex-direction:column ;
+    padding-bottom: 10px;
+}
+.mainCard{
+    display: flex;
+    flex-direction: roww;
+}
+.text{
+    width: 75%;
+    padding:5px 10%;
+    
+}
+.headerCard{
+    display: flex;
+    flex-direction: row ;
+}
+.headerCard1{
+    display: flex;
+    flex-direction: row ;
+    margin-top: 6vh;
+    border-top: 1px solid #d3d3d3;
+    padding-top: 4vh;
+}
+.lizinho{
+    cursor: pointer;
+}
+.bzin button {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    color: rgba(254, 44, 85, 1);
+    border-color: rgba(254, 44, 85, 1);
+    background-color: rgba(255, 255, 255, 1);
+    min-width: 106px;
+    min-height: 28px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+    font-family: ProximaNova,PingFangSC,sans-serif;}
+    video{
+        width:50%;
+        height: 100%;
+    }
+    .video{
+        display: flex;
+        flex-direction: row;
+        margin-top: 4%;
+        margin-left: 13%;
+    }
+    .incons{
+        margin-top: 20%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-left: 10px;
+    }
+    .incons button{ 
+        border-radius: 100%;
+        padding: 12px 0px;
+        border: none;
+        margin-top: 20px;
+    }
+    .perfilImg{
+        width: 4vw;
+        border-radius: 100%;
+    }
+    .bSeguin{
+        position: absolute;
+        padding: 0 2px;
+        margin-top: 6vh;
+        margin-left: 3vw;
+        margin-right: 0;
+        border: none;
+        border-radius: 100%;
+    }

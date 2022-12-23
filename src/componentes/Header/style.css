@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .header{
+    position:fixed;
+    z-index: 1000;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    border-bottom: 1px rgba(128, 128, 128, 0.253) solid ;
+    background-color: #fff;
+  }
+  .box1{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    width: 84vw;
+    margin:0 9vw;
+  }
+  input{
+    height: 6vh;
+    width: 19vw;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border:none ;
+    padding: 20px;
+    background-color: rgba(22, 24, 35, .06);;
+    
+  }
+  .buscar button{
+    margin-top: 0px;
+  }
+  .search{
+    display: flex;
+    flex-direction: row;
+  }
+   .search span{
+        background-color:  rgba(22, 24, 35, 0.158);
+        width: 1px;
+        margin:4px 0;
+    }
+  
+  .buscar{
+    padding-right: 8px;
+    display: flex;
+   
+  }
+  .buscar button {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 5px 20px;
+    border: none;
+    ;
+}
+  button {
+      padding: 6px 40px;
+      text-align: center;
+      cursor: pointer;
+  
+  }
+  #b1{
+    padding:10px 30px;
+    margin-right: 20px;
+    border: none;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: bold;
+  }
+  #b2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    padding:10px 30px;
+    color: #fff;
+    background-color: #F32C55;
+    border: none;
+    margin-right: 20px;
+  }
+  #tres{
+    cursor: pointer;
+  }
